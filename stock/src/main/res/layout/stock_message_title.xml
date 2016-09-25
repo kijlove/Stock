@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/indexList_linear_01"
+        style="@style/indexList_linearlayout">
+
+        <TextView
+            android:id="@+id/indexList_name01"
+            style="@style/buy_sell" />
+
+        <TextView
+            android:id="@+id/indexList_price01"
+            style="@style/buy_sell" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/indexList_linear_02"
+        style="@style/indexList_linearlayout">
+
+        <TextView
+            android:id="@+id/indexList_name02"
+            style="@style/buy_sell" />
+
+        <TextView
+            android:id="@+id/indexList_price02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/indexList_linear_03"
+        style="@style/indexList_linearlayout">
+
+        <TextView
+            android:id="@+id/indexList_name03"
+            style="@style/buy_sell" />
+
+        <TextView
+            android:id="@+id/indexList_price03"
+            style="@style/buy_sell" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/indexList_linear_04"
+        style="@style/indexList_linearlayout">
+
+        <TextView
+            android:id="@+id/indexList_name04"
+            style="@style/buy_sell" />
+
+        <TextView
+            android:id="@+id/indexList_price04"
+            style="@style/buy_sell" />
+    </LinearLayout>
+</LinearLayout>

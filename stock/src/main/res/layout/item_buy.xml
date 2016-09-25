@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/buy_sell"
+            android:text="@string/buy1_n"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/buy1_m"
+            style="@style/buy_sell_price" />
+        <TextView
+            android:id="@+id/buy1_n"
+            style="@style/buy_sell_num"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            style="@style/buy_sell"
+            android:text="@string/buy2_n"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/buy2_m"
+            style="@style/buy_sell_price" />
+        <TextView
+            android:id="@+id/buy2_n"
+            style="@style/buy_sell_num" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/buy_sell"
+            android:text="@string/buy3_n"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/buy3_m"
+            style="@style/buy_sell_price"/>
+        <TextView
+            android:id="@+id/buy3_n"
+            style="@style/buy_sell_num" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/buy_sell"
+            android:text="@string/buy4_n"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/buy4_m"
+            style="@style/buy_sell_price"/>
+        <TextView
+            android:id="@+id/buy4_n"
+            style="@style/buy_sell_num"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/buy_sell"
+            android:text="@string/buy5_n"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/buy5_m"
+            style="@style/buy_sell_price" />
+        <TextView
+            android:id="@+id/buy5_n"
+            style="@style/buy_sell_num" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activitys.mystock.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <include
+        android:id="@+id/stock_message_title_linear"
+        layout="@layout/stock_message_title"></include>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_stock_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/stock_message_title_linear"></android.support.v7.widget.RecyclerView>
+
+    <!--<android.support.v4.widget.ContentLoadingProgressBar-->
+        <!--android:id="@+id/intent_progressbar"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--style="?android:attr/progressBarStyleLarge"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_centerVertical="true" />-->
+</RelativeLayout>
